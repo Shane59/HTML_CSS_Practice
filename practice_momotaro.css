@@ -1,0 +1,17 @@
+h1{
+    color: blue;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 1px dashed;
+    border-top: 1px dashed;
+    background: lightblue;
+}
+span{
+    color: red;
+}
+ul{
+    list-style-type: square;
+}
+a{
+    color: orange;
+}
