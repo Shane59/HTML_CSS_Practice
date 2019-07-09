@@ -1,28 +1,202 @@
 body{
-    margin-top: 0;
-}
-.mainView{
+    margin: 0 auto;
     width: 960px;
     margin-left: auto;
     margin-right: auto;
+    background: #f5f5dd;
+    /*overflow: hidden;*/
 }
-ul{
+.mainNav{
     list-style-type: none;
-    flex: 1;
-    width: 960px;
     display: flex;
-}
-nav{
+    padding: 0%;
+    color: #664433;
     text-align: center;
-    margin-right: 0;
 }
-li{
-    margin: 4px;
+.mainviewPic{
+    width: 960px;
+}
+a{
+    text-decoration: none;
+}
+.mainli{
     flex: 1;
-    text-align: center;
-    background: yellow;
-    display: inline-block;
+    border-right: 1px solid gray;
+}
+.mainli:last-child{
+    border-right: none;
+}
+.subtitle{
+    color: #664433;
+    margin: 0;
+    clear: both;
+}
+.logo{
+    margin-bottom: 0;
+    margin: 0;
+    float: left;
+}
+form{
+    text-align: right;
+    float: right;
 }
 header{
+    border-bottom: 1px solid#cccccc;
+    width: 100%;
+    position: relative;
+    background: white;
+    margin-left: -500px;
+    padding-left: 500px;
+    margin-right: -500px;
+    padding-right: 500px;
+}
+.nav{
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.sideNav{
+    border-bottom: 1px dashed black;
+    padding: 3px;
+}
+.sideNav:last-child{
+    border-bottom: none;
+}
+.recipeByCategory{
+    width: 16%;
+    background: white;
+    float: left;
+    padding: 10px;
+}
+h4{
+    color: white;
+    padding-left: 8px;
+    margin: 5px;
+    background:#99bb22;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: left;
+    display: flex;
+    padding-top: 10px;
+}
+.fork{
+    margin: 5px;
+}
+.newRecipes{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: auto;
+    background: white;
+    padding: 10px;
+}
+.listOfNewRecipes{
+    display: flex;
+}
+.descOfNewRecipe{
+    font-size: 10px;
     text-align: center;
+    margin-right: 0px;
+    padding: 1px;
+    flex: 1;
+}
+.ad1{
+    margin: 0;
+    float: right;
+    margin-top: -20%;
+}
+.ad2{
+    float: right;
+    margin-top: -36%;
+}
+.recipeByPurpose{
+    width: 16%;
+    padding: 10px;
+    float: left;
+    background: white;
+    clear: both;
+    margin-top: -10px;
+}
+.TopicOfJapneseFood{
+    width: 60%;
+    background: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-left: 20%;
+    margin-right: auto;
+    padding: 10px;
+}
+.japaneseFood{
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+    margin-top: -70px;
+}
+.descOfJapaneseFood{
+    width: 55%;
+    float: left;
+    padding: 5px;
+    margin-top: -70px;
+}
+.ContinueReading{
+    text-align: right;
+    clear: both;
+    text-decoration: none;
+    color: #fc8833;
+}
+.lessonAd{
+    margin-left: 10px;
+}
+.easyRecommendedRecipes{
+    width: 60%;
+    background: white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: auto;
+}
+.descOfSeasonalFood{
+    width: 55%;
+    float: right;
+}
+.seasonalRecipes{
+    float: left;
+}
+h5{
+    color: #664433; 
+    margin: 0;
+    margin-top: 2%;
+}
+.easyRecipes{
+    float: left;
+}
+.descOfEasyFood{
+    width: 55%;
+    float: right;
+    margin-top: 0;
+}
+footer{
+    border-top: 1px solid #cccccc;
+    text-align: center;
+    background: white;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    margin-left: -500px;
+    padding-left: 500px;
+    margin-right: -500px;
+    padding-right: 500px;
+}
+.footer{
+    list-style-type: none;
+    padding-left: 0;
+    display: inline-block;
+    vertical-align: middle;
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    
 }

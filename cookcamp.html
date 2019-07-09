@@ -7,32 +7,173 @@
     <title>Document</title>
     <link rel="stylesheet" href="cookcamp.css">
 </head>
-<nav>
-    <ul>
-        <li>
-            新着レシピ
-        </li>
-        <li>
-            料理から検索 
-        </li>
-        <li>
-            食材から検索
-        </li>
-        <li>
-            旬の料理特集
-        </li>
-        <li>
-            ランキング
-        </li>
-    </ul>
-</nav>
-<p class="mainView">
-        <img src="/PracticeFrontEnd/images/contents/mainView.jpg" alt="mainView">
+<header>
+        <form action="#">
+                <input type="search" name="search" placeholder="料理名・食材名で検索"> 
+                <input type="submit" name="submit" value="レシピ検索">
+            </form>
+    <p class="logo">
+        <img src="/PracticeFrontEnd/logo.png" alt="cookCampLogo">
     </p>
+    
+    <p class="subtitle">
+        誰でも作れる簡単料理レシピ提載サイト
+    </p>
+    <div class="nav">
+        <ul class="mainNav">
+            <li class="mainli">
+                <a href="">新着レシピ</a> 
+            </li>
+            <li class="mainli">
+                <a href="">料理から検索</a> 
+            </li>
+            <li class="mainli">
+                <a href="">食材から検索</a>
+            </li>
+            <li class="mainli">
+                <a href="">旬の料理特集</a>
+            </li>
+            <li class="mainli">
+                <a href="">ランキング</a>
+            </li>
+        </ul>
+    </div>
+</header>
+<p class="mainView">
+    <img src="/PracticeFrontEnd/mainView.jpg" alt="mainView" class="mainviewPic">
+</p>
 <body>
     <!--Overall layout-->
-    <div>
+    <nav class="recipeByCategory">
+        <h4><img src="/PracticeFrontEnd/dish.png" alt="fork" class="fork">料理別レシピ</h4>
+        <ul class="nav">
+            <li class="sideNav"><img src="/PracticeFrontEnd/arrow.png" alt="arrow"><a href="">和食</a></li>
+            <li class="sideNav"><img src="/PracticeFrontEnd/arrow.png" alt="arrow"><a href="">イタリアン</a></li>
+            <li class="sideNav"><img src="/PracticeFrontEnd/arrow.png" alt="arrow"><a href="">フレンチ</a></li>
+            <li class="sideNav"><img src="/PracticeFrontEnd/arrow.png" alt="arrow"><a href="">中華</a></li>
+            <li class="sideNav"><img src="/PracticeFrontEnd/arrow.png" alt="arrow"><a href="">アジアン</a></li>
+            <li class="sideNav"><img src="/PracticeFrontEnd/arrow.png" alt="arrow"><a href="">エスニック</a></li>
+            <li class="sideNav"><img src="/PracticeFrontEnd/arrow.png" alt="arrow"><a href="">鍋</a></li>
+            <li class="sideNav"><img src="/PracticeFrontEnd/arrow.png" alt="arrow"><a href="">デザート</a></li>
+        </ul>
+    </nav>
+    <div class="newRecipes">
+        <h4><img src="/PracticeFrontEnd/dish.png" alt="fork" class="fork">新着レシピ</h4>
+        <div class="listOfNewRecipes">
+        <p class="descOfNewRecipe">
+            <a href="">
+                <img src="/PracticeFrontEnd/newRecipes1.jpg" alt="newRecipes1">
+            <br>
+            季節菜の彩前菜
+            </a>
+        </p>
+        <p class="descOfNewRecipe">
+            <a href="">
+               <img src="/PracticeFrontEnd/newRecipes2.jpg" alt="newRecipes2">
+            <br>
+            簡単かぼちゃスープ 
+            </a>
+            
+        </p>
+        <p class="descOfNewRecipe">
+            <a href="">
+               <img src="/PracticeFrontEnd/newRecipes3.jpg" alt="newRecipes3">
+            <br>
+            ヘルシー米粉パン 
+            </a>
+        </p>
+        <p class="descOfNewRecipe">
+            <a href="">
+               <img src="/PracticeFrontEnd/newRecipes4.jpg" alt="newRecipes4">
+            <br>
+            ぷりぷりエビ料理 
+            </a>
+        </p>
+        <p class="descOfNewRecipe">
+            <a href="">
+               <img src="/PracticeFrontEnd/newRecipes5.jpg" alt="newRecipes5">
+            <br>
+            かんたんなべ 
+            </a>
+        </p>
+        </div>
+    </div>
+    
+    <p class="ad1">
+        <img src="/PracticeFrontEnd/right1.png" alt="codeCampAD">
+    </p>
+    <nav class="recipeByPurpose">
+            <h4><img src="/PracticeFrontEnd/dish.png" alt="fork" class="fork">目的別レシピ</h4>
+            <ul class="nav">
+                <li class="sideNav"><img src="/PracticeFrontEnd/arrow.png" alt="arrow"><a href="">お弁当</a></li>
+                <li class="sideNav"><img src="/PracticeFrontEnd/arrow.png" alt="arrow"><a href="">簡単おかず</a></li>
+                <li class="sideNav"><img src="/PracticeFrontEnd/arrow.png" alt="arrow"><a href="">ダイエット</a></li>
+                <li class="sideNav"><img src="/PracticeFrontEnd/arrow.png" alt="arrow"><a href="">ベビーフード</a></li>
+                <li class="sideNav"><img src="/PracticeFrontEnd/arrow.png" alt="arrow"><a href="">節約食材</a></li>
+                <li class="sideNav"><img src="/PracticeFrontEnd/arrow.png" alt="arrow"><a href="">アレルギー</a></li>
+                <li class="sideNav"><img src="/PracticeFrontEnd/arrow.png" alt="arrow"><a href="">シニア料理</a></li>
+            </ul>
+    </nav>
+    <div class="TopicOfJapneseFood">
+        <h4><img src="/PracticeFrontEnd/dish.png" alt="fork" class="fork">今だからこそ見直したい「和食」</h4>
+        <p class="japaneseFood">
+           <img src="/PracticeFrontEnd/topics.jpg" alt="JapaneseFoodPic"> 
+           <p class="descOfJapaneseFood">
+               &nbsp&nbsp&nbsp普段、私たちが合にげなく口にしている和食ですが、その基本は一汁三菜。ご飯、味噌汁、お漬物の他、主菜（魚または肉）、副菜として季節毎の野菜と豆類で構成されます。<br>
+               <br>昔から「旬の野菜を食べましょう」と言いますが、それは、素材がじっくりと時間をかけ蓄積してきた旨みや栄養価が最高になったところでいただいて、効率よく栄養を取り風邪などの予防をしましょうね、ということです。<br>
+               <br>それでは、各季節毎の野菜のついて調べてみましょう。<br>
+            </p>
+            <p class="ContinueReading">
+                <a href=""><img src="/PracticeFrontEnd/arrow.png" alt="arrow">続きを読む</a>
+            </p>
+           
+        </p>
         
     </div>
+    
+    <p class="ad2">
+       <img src="/PracticeFrontEnd/right2.png" alt="lessonAd"> 
+    </p>
+    <div class="easyRecommendedRecipes">
+            <h4><img src="/PracticeFrontEnd/dish.png" alt="fork" class="fork">簡単！おすすめレシピ</h4>
+            <p class="easyRecipes">
+               <img src="/PracticeFrontEnd/pushRecipes1.jpg" alt="sesonalFood"> 
+               <h5>&nbsp&nbsp&nbsp&nbsp季節の食材～春～</h5>
+               <p class="descOfEasyFood">
+                   <br>&nbsp&nbsp&nbsp新たまねぎに春キャベツ、新じゃが、山菜などなど・・・春の野菜は風味が良くみずみずしいのが特徴です。<br>
+                   それでは、春野菜を使ったレシピを紹介しましょう。
+                </p>
+                <p class="ContinueReading">
+                    <a href=""><img src="/PracticeFrontEnd/arrow.png" alt="arrow">続きを読む</a>
+                </p>
+               
+            </p>
+            <p class="seasonalRecipes">
+                <img src="/PracticeFrontEnd/pushRecipes2.jpg" alt="sesonalFood"> 
+                <h5>&nbsp&nbsp&nbsp&nbsp春野菜を食べて花粉症予防？！</h5>
+                <p class="descOfSeasonalFood">
+                    &nbsp&nbsp&nbsp春になると花粉症に悩まされる人は多いと思います。この花粉症、ある食材を取ることで少し緩和されるんです！<br>
+                    <br>さて、その食材とは・・・？
+                </p>
+                <p class="ContinueReading">
+                    <a href=""><img src="/PracticeFrontEnd/arrow.png" alt="arrow">続きを読む</a>
+                </p>
+            </p>
+        </div>
+    
+    
 </body>
+<footer>
+        <nav>
+            <ul class="footer">
+                <li class="mainli">サイトマップ</li>
+                <li class="mainli">プライバシーポリシー</li>
+                <li class="mainli">お問い合わせ</li>
+                <li class="mainli">ご利用ガイド</li>
+            </ul>
+        </nav>
+        <p>
+            Copywrite &copy; CodeCamp All Rights Reserved.
+        </p>
+    </footer>
 </html>
